@@ -1,0 +1,118 @@
+#cart {
+	position: relative;
+}
+#cart > div {
+	display: none;
+	position: absolute;
+	bottom: 100%;
+	left: 50%;
+	margin-left: -150px;
+	width: 300px;
+	
+}
+#cartContent {
+	background-color: #eee;
+	border: 1px solid #555;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.CSS_Cart {
+	margin:0px;padding:0px;
+	width:100%;
+	border:1px solid #ffffff;
+	
+	-moz-border-radius-bottomleft:0px;
+	-webkit-border-bottom-left-radius:0px;
+	border-bottom-left-radius:0px;
+	
+	-moz-border-radius-bottomright:0px;
+	-webkit-border-bottom-right-radius:0px;
+	border-bottom-right-radius:0px;
+	
+	-moz-border-radius-topright:0px;
+	-webkit-border-top-right-radius:0px;
+	border-top-right-radius:0px;
+	
+	-moz-border-radius-topleft:0px;
+	-webkit-border-top-left-radius:0px;
+	border-top-left-radius:0px;
+}.CSS_Cart table{
+	width:100%;
+	height:100%;
+	margin:0px;padding:0px;
+}.CSS_Cart tr:last-child td:last-child {
+	-moz-border-radius-bottomright:0px;
+	-webkit-border-bottom-right-radius:0px;
+	border-bottom-right-radius:0px;
+}
+.CSS_Cart table tr:first-child td:first-child {
+	-moz-border-radius-topleft:0px;
+	-webkit-border-top-left-radius:0px;
+	border-top-left-radius:0px;
+}
+.CSS_Cart table tr:first-child td:last-child {
+	-moz-border-radius-topright:0px;
+	-webkit-border-top-right-radius:0px;
+	border-top-right-radius:0px;
+}.CSS_Cart tr:last-child td:first-child{
+	-moz-border-radius-bottomleft:0px;
+	-webkit-border-bottom-left-radius:0px;
+	border-bottom-left-radius:0px;
+}.CSS_Cart tr:hover td{
+	background-color:#2c6fb7;		
+}
+
+.CSS_Cart td{
+	vertical-align:middle;
+	
+	background-color:#80b3e5;
+
+	border:1px solid #ffffff;
+	border-width:0px 1px 1px 0px;
+	text-align:center;
+	padding:7px;
+	#font-size:10px;
+	font-family:Arial;
+	font-weight:normal;
+	color:#fffcfc;
+}.CSS_Cart tr:last-child td{
+	border-width:0px 1px 0px 0px;
+}.CSS_Cart tr td:last-child{
+	border-width:0px 0px 1px 0px;
+}.CSS_Cart tr:last-child td:last-child{
+	border-width:0px 0px 0px 0px;
+}
+.CSS_Cart tr:first-child td{
+		background:-o-linear-gradient(bottom, #033970 5%, #0764c1 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #033970), color-stop(1, #0764c1) );
+	background:-moz-linear-gradient( center top, #033970 5%, #0764c1 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#033970", endColorstr="#0764c1");	background: -o-linear-gradient(top,#033970,0764c1);
+
+	background-color:#033970;
+	border:0px solid #ffffff;
+	text-align:center;
+	border-width:0px 0px 1px 1px;
+	font-size:14px;
+	font-family:Arial;
+	font-weight:bold;
+	color:#ffffaa;
+}
+.CSS_Cart tr:first-child:hover td{
+	background:-o-linear-gradient(bottom, #033970 5%, #0764c1 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #033970), color-stop(1, #0764c1) );
+	background:-moz-linear-gradient( center top, #033970 5%, #0764c1 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#033970", endColorstr="#0764c1");	background: -o-linear-gradient(top,#033970,0764c1);
+
+	background-color:#033970;
+}
+.CSS_Cart tr:first-child td:first-child{
+	border-width:0px 0px 1px 0px;
+}
+.CSS_Cart tr:first-child td:last-child{
+	border-width:0px 0px 1px 1px;
+}
+
+.editfield {
+	color: black;
+	text-align: center;
+	width: 54px;
+}
